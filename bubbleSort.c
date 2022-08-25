@@ -40,8 +40,8 @@ int main()
     printf("Enter the element:\n");
     for (i = 0; i < n; i++)
     {
-        //a[i] = rand() % 10000; // average case
-        a[i] = i + 1;      // best case
+        // a[i] = rand() % 10000; // average case
+        a[i] = i + 1; // best case
         // a[i] = n - i       // worst case
     }
 
